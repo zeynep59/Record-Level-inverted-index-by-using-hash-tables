@@ -15,11 +15,11 @@ public class Test {
 	
 	public static void main(String[] args) throws IOException {
 		
-		String rootFile = "bbc";
+		String rootFolder = "bbc";
 		hashmap.setLoadFactor(0.8);  //0.5  or 0.8
 		hashmap.setHashType("PAF");  //PAF or SSF
 		hashmap.setCollisionHandlingType("DH"); //DH OR LP
-		AddingElements adding = new AddingElements(rootFile);
+		AddingElements adding = new AddingElements(rootFolder);
 		searchWords();
 
 		
